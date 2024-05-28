@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "baseUrl": "./",
+        "outDir": "./dist",
+        "removeComments": true,
+        "noLib": false,
+        "target": "es6",
+        "sourceMap": true,
+        "lib": [
+            "es6"
+        ],
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "*.ts",
+        "**/*.ts",
+    ]
+}

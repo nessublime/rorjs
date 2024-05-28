@@ -1,0 +1,36 @@
+{
+  "name": "rorjs",
+  "version": "1.1.1",
+  "description": "Error and optional values control flow library based on Rust's Result and Option.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/AnderBenito/rorjs",
+  "repository": "git@github.com:AnderBenito/rorjs.git",
+  "bugs": {
+    "url": "https://github.com/AnderBenito/rorjs/issues",
+    "email": "anderbenito96@gmail.com"
+  },
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "npm run clean && tsc --project tsconfig.build.json",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.2.1 ",
+    "jest": "^28.0.1",
+    "jest-junit": "^13.2.0",
+    "prettier": "^2.3.2",
+    "ts-jest": "^28.0.8"
+  },
+  "keywords": ["result", "error", "rust", "option", "maybe", "either"],
+  "author": "Ander Benito <anderbenito96@gmail.com>",
+  "license": "MIT"
+}
